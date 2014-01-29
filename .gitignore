@@ -1,0 +1,87 @@
+
+# /
+/*.log
+/target
+/release.properties
+/greenpepper.iml
+/greenpepper.ipr
+/greenpepper.iws
+
+# /greenpepper-client/
+/greenpepper-client/deploy.bat
+/greenpepper-client/.project
+/greenpepper-client/.settings
+/greenpepper-client/target
+/greenpepper-client/.classpath
+/greenpepper-client/.wtpmodules
+/greenpepper-client/Export-To-Confluence.jardesc
+/greenpepper-client/greenpepper-client.iml
+
+# /greenpepper-client/src/main/java/
+/greenpepper-client/src/main/java/META-INF
+
+# /greenpepper-license/
+/greenpepper-license/target
+/greenpepper-license/.settings
+/greenpepper-license/.classpath
+/greenpepper-license/.project
+/greenpepper-license/deploy.bat
+/greenpepper-license/.wtpmodules
+/greenpepper-license/Export-To-Confluence.jardesc
+/greenpepper-license/greenpepper-license.iml
+
+# /greenpepper-license/src/test/java/
+/greenpepper-license/src/test/java/META-INF
+
+# /greenpepper-server/
+/greenpepper-server/.settings
+/greenpepper-server/target
+/greenpepper-server/.classpath
+/greenpepper-server/.project
+/greenpepper-server/greenpepper-runner.log
+/greenpepper-server/greenpepper-server.log
+/greenpepper-server/Export-To-Confluence.jardesc
+/greenpepper-server/Export-To-JIRA.jardesc
+/greenpepper-server/work
+/greenpepper-server/*.tomcatplugin
+/greenpepper-server/DATA
+/greenpepper-server/greenpepper-core-java.log
+/greenpepper-server/.wtpmodules
+/greenpepper-server/*.jardesc
+/greenpepper-server/*.log
+/greenpepper-server/logs
+/greenpepper-server/GreenPepper-Accept-BNK- TableOfRulesSample.html
+/greenpepper-server/GreenPepper Accept-BNKT-As a client, I want to contract a Mortgage.html
+/greenpepper-server/deploy.bat
+/greenpepper-server/greenpepper-server.log.1
+/greenpepper-server/greenpepper-server.log.2
+/greenpepper-server/greenpepper-server.log.3
+/greenpepper-server/greenpepper-server.log.4
+/greenpepper-server/greenpepper-server.log.5
+/greenpepper-server/build-war.bat
+/greenpepper-server/greenpepper-server.iml
+
+# /greenpepper-server/src/
+/greenpepper-server/src/fixtures
+
+# /greenpepper-server/src/main/java/
+/greenpepper-server/src/main/java/META-INF
+
+# /greenpepper-server/src/main/resources/
+/greenpepper-server/src/main/resources/
+/greenpepper-server/src/main/resources/greenpepper-server.xml
+/greenpepper-server/src/main/resources/META-INF
+/greenpepper-server/src/main/resources/greenpepper-server.cfg.xml
+/greenpepper-server/src/main/resources/log4j.properties
+
+# /greenpepper-server/src/main/webapp/
+/greenpepper-server/src/main/webapp/META-INF
+/greenpepper-server/src/main/webapp/runners
+
+# /greenpepper-server/src/main/webapp/WEB-INF/
+/greenpepper-server/src/main/webapp/WEB-INF/lib
+/greenpepper-server/src/main/webapp/WEB-INF/classes
+
+# /greenpepper-server/src/test/resources/setupdbdatas/
+/greenpepper-server/src/test/resources/setupdbdatas/greenpepper-server.data.localhost.xml
+/greenpepper-server/src/test/resources/setupdbdatas/greenpepper-server.data.user.xml

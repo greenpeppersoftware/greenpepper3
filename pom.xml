@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>greenpepper-base</artifactId>
+		<groupId>greenpepper</groupId>
+		<version>3.0.0</version>
+	</parent>
+
+	<!--
+	 - Basic Project Information
+	 -->
+	<artifactId>greenpepper</artifactId>
+	<packaging>pom</packaging>
+	<version>3.0</version>
+	<name>GreenPepper</name>
+
+	<!--
+	 - GreenPepper modules
+	 -->
+	<modules>
+		<module>greenpepper-client</module>
+		<module>greenpepper-license</module>
+		<module>greenpepper-server</module>
+	</modules>
+
+	<!--
+	 - Dependencies that we want for all modules
+	 -->
+	<dependencies>
+		<!-- **** Basic dependencies  **** -->
+		<dependency>
+			<groupId>greenpepper-open</groupId>
+			<artifactId>greenpepper-core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>greenpepper-open</groupId>
+			<artifactId>greenpepper-core</artifactId>
+			<type>test-jar</type>
+			<scope>test</scope>
+			<version>${project.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.5.8</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.5.8</version>
+			<scope>test</scope>
+		</dependency>
+	
+	</dependencies>
+	
+	<scm>
+		<connection>scm:svn:https://www.pyxis-tech.ca/svn/GreenPepperRepos/greenpepper</connection>
+		<developerConnection>scm:svn:https://www.pyxis-tech.ca/svn/GreenPepperRepos/greenpepper/trunk
+		</developerConnection>
+		<url>https://www.pyxis-tech.ca/fisheye/viewrep/GreenPepper/greenpepper/</url>
+	</scm>
+</project>
