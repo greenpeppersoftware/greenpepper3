@@ -3,7 +3,7 @@
 	<parent>
 		<artifactId>greenpepper-base</artifactId>
 		<groupId>greenpepper</groupId>
-		<version>3.0.0</version>
+		<version>3.1.0</version>
 	</parent>
 
 	<!--
@@ -11,7 +11,7 @@
 	 -->
 	<artifactId>greenpepper</artifactId>
 	<packaging>pom</packaging>
-	<version>3.0</version>
+	<version>3.1</version>
 	<name>GreenPepper</name>
 
 	<!--
@@ -52,13 +52,10 @@
 			<version>1.5.8</version>
 			<scope>test</scope>
 		</dependency>
-	
 	</dependencies>
-	
+
 	<scm>
-		<connection>scm:svn:https://www.pyxis-tech.ca/svn/GreenPepperRepos/greenpepper</connection>
-		<developerConnection>scm:svn:https://www.pyxis-tech.ca/svn/GreenPepperRepos/greenpepper/trunk
-		</developerConnection>
-		<url>https://www.pyxis-tech.ca/fisheye/viewrep/GreenPepper/greenpepper/</url>
+		<connection>https://github.com/greenpeppersoftware/greenpepper.git</connection>
+		<url>https://github.com/greenpeppersoftware/greenpepper/</url>
 	</scm>
 </project>
