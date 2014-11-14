@@ -20,4 +20,4 @@ before_script:
   - java -version
 
 script:
-  - mvn test
+  - mvn install
