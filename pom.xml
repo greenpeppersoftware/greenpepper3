@@ -58,4 +58,43 @@
 		<connection>https://github.com/greenpeppersoftware/greenpepper.git</connection>
 		<url>https://github.com/greenpeppersoftware/greenpepper/</url>
 	</scm>
+	<repositories>
+
+				<repository>
+
+					<id>novatec-repo</id>
+
+					<name>novatec-repo</name>
+
+					<url>http://repository.novatec-gmbh.de/content/repositories/novatec</url>
+
+					<layout>default</layout>
+
+					
+
+				</repository>
+
+				
+
+			</repositories>
+
+			<pluginRepositories>
+
+				<pluginRepository>
+
+					<id>novatec-repo</id>
+
+					<name>novatec-repo</name>
+
+					<url>http://repository.novatec-gmbh.de/content/repositories/novatec</url>
+
+					<layout>default</layout>
+
+					
+
+				</pluginRepository>
+
+				
+
+			</pluginRepositories>
 </project>
